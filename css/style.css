@@ -1,0 +1,76 @@
+@font-face {
+    font-family: square;
+    src: url(fonts/Square.ttf);
+}
+@font-face {
+    font-family: ahamono;
+    src: url(fonts/AHAMONO-Regular.otf);
+}
+.row{
+  width: 100%;
+  max-width: 100%;
+}
+
+
+.top-bar, .top-bar ul {
+    background-color: #fefefe;
+}
+.title-bar {
+  background: #fefefe;
+}
+.title-bar-title {
+  color: black;
+}
+.menu{
+  line-height: 25px;;
+}
+.menu > li > a {
+        display: block;
+        padding: 1rem 1rem;
+        line-height: 1;
+    }
+
+.top-bar-left >.menu > li > a {
+    font-size: 25px;
+    font-family: square;
+    letter-spacing: 7px;
+}
+.top-bar-right >.menu > li > a {
+    font-size: 16px;
+    font-family: ahamono;
+    padding-top: 1.25em;
+    text-transform: uppercase;
+    color: #0e0e0e;
+    transition: 0.2s ease-in-out;
+}
+.top-bar-left>.menu > li > a:hover{
+  color:black;
+}
+.top-bar-right>.menu > li > a:hover{
+  color:#2ade72;
+}
+
+.top-bar-right >.menu > li > a :active{
+    font-size: 30px !important;
+}
+  .menu-icon::after {
+  background: black ;
+
+    box-shadow: 0 7px 0 black, 0 14px 0 black;}
+  .menu-icon:hover::after {
+    background: black ;
+    box-shadow: 0 7px 0 black, 0 14px 0 black; }
+
+
+  .menu-icon.dark::after {
+
+    background: #0a0a0a;
+    box-shadow: 0 7px 0 black, 0 14px 0 black; }
+  .menu-icon.dark:hover::after {
+    background: black;
+    box-shadow: 0 7px 0 black, 0 14px 0 black; }
+.orbit-image{
+  max-height: 61.8%;
+  background-repeat: no-repeat;
+  margin-bottom: 3em;
+}
