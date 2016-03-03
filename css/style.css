@@ -38,6 +38,8 @@
 .top-bar-right >.menu > li > a {
     font-size: 16px;
     font-family: ahamono;
+    font-weight: 900;
+    letter-spacing: 1px;
     padding-top: 1.25em;
     text-transform: uppercase;
     color: #0e0e0e;
